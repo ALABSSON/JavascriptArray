@@ -44,12 +44,22 @@
 
 
 // CONVERT INPUT TO OBJECT START 
-    let Data = []
+   /* let Data = []
     let user = prompt("What is your name")
     let age = prompt("What is ur age")
     let ObjUser = {user, age}
 
     Data.push(ObjUser, age)
     console.log(Data)
-
+    */
 // CONVERT INPUT TO OBJECT END
+
+
+
+// LOCAL STORAGE SET AND GET START
+    localStorage.setItem("Name", "Yusuf")
+    let Get = localStorage.getItem("Name")
+    console.log(Get)
+
+
+// LOCAL STORAGE SET AND GET END
